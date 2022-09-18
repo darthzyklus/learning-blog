@@ -24,7 +24,7 @@ export default function App() {
           href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/tokyo-night-dark.min.css'
         />
         <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js'></script>
-        <script>hljs && hljs.highlightAll && hljs.highlightAll()</script>
+        <script src='/highlight.js'></script>
         <Links />
       </head>
       <body>
