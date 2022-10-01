@@ -20,6 +20,7 @@ export async function loader() {
 }
 
 export default function Index() {
+  // TODO: add Post type
   const { posts } = useLoaderData()
 
   return (
