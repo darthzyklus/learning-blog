@@ -34,6 +34,10 @@ export let links: LinksFunction = () => {
   ]
 }
 
+interface DocumentProps {
+  children: React.ReactNode
+}
+
 const Document = withEmotionCache(
   ({ children }: DocumentProps, emotionCache) => {
     const serverStyleData = useContext(ServerStyleContext)
